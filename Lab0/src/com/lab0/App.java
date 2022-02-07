@@ -11,9 +11,8 @@ public class App {
 		
         HelloWorld obj = (HelloWorld) context.getBean("greeter");
         
-        obj.getName();
         
-        obj.getGreeting();
+        System.out.println(obj.getGreeting()+ " from " + obj.getName());
         
 	}
 
